@@ -1,0 +1,92 @@
+[
+    {
+        "questionText" : "What is the operation from gas to plasma?",
+        "answerOptions" : [
+            { "answerText" : "Condesation", "isCorrect" : false },
+            { "answerText": "Boiling", "isCorrect" : false },
+            { "answerText" : "Ionization", "isCorrect" : true },
+            { "answerText": "Melting", "isCorrect" : false }
+        ]
+    },
+    {
+        "questionText" : "What does the plants use for getting sunlight?",
+        "answerOptions" : [
+            { "answerText" : "Molicule type", "isCorrect" : false },
+            { "answerText": "Clorophyle", "isCorrect" : true },
+            { "answerText" : "Flower", "isCorrect" : false },
+            { "answerText": "Mud and roots", "isCorrect" : false }
+        ]
+    },
+    {
+        "questionText" : "Who killed Christ?",
+        "answerOptions" : [
+            { "answerText" : "Roman", "isCorrect" : true },
+            { "answerText": "Traitor", "isCorrect" : false },
+            { "answerText" : "Greek", "isCorrect" : false },
+            { "answerText": "Persian", "isCorrect" : false }
+        ]
+    },   
+    {
+        "questionText" : "Which animal is always born handicapped?",
+        "answerOptions" : [
+            { "answerText" : "Snake", "isCorrect" : true },
+            { "answerText": "Shark", "isCorrect" : false },
+            { "answerText" : "Eagle", "isCorrect" : false },
+            { "answerText": "Parrot", "isCorrect" : false }
+        ]
+    }, 
+    {
+        "questionText" : "Who painted ‘Starry Night’?",
+        "answerOptions" : [
+            { "answerText" : "Leonardo Da Vinci", "isCorrect" : false },
+            { "answerText": "Michelangelo", "isCorrect" : false },
+            { "answerText" : "Hussain", "isCorrect" : false },
+            { "answerText": "Van Gogh", "isCorrect" : true }
+        ]
+    },  
+    {
+        "questionText" : "Where does a dinosaur place its tail?",
+        "answerOptions" : [
+            { "answerText" : "Up", "isCorrect" : false },
+            { "answerText": "Right", "isCorrect" : false },
+            { "answerText" : "Left", "isCorrect" : true },
+            { "answerText": "Down", "isCorrect" : false }
+        ]
+    }, 
+    {
+        "questionText" : "How many Jurrasic movies have been made?",
+        "answerOptions" : [
+            { "answerText" : "8", "isCorrect" : false },
+            { "answerText": "5", "isCorrect" : false },
+            { "answerText" : "7", "isCorrect" : true },
+            { "answerText": "6", "isCorrect" : false }
+        ]
+    },   
+    {
+        "questionText" : "Who killed Julius Ceaser?",
+        "answerOptions" : [
+            { "answerText" : "Soldiers", "isCorrect" : false },
+            { "answerText": "Brutus", "isCorrect" : true },
+            { "answerText" : "Butler", "isCorrect" : false},
+            { "answerText": "Assasin", "isCorrect" : false }
+        ]
+    },
+    {
+        "questionText" : "What is known as the fear of sharks?",
+        "answerOptions" : [
+            { "answerText" : "Spinophobia", "isCorrect" : false },
+            { "answerText": "Arachnophobia", "isCorrect" : false },
+            { "answerText" : "Nyctophobia", "isCorrect" : false },
+            { "answerText": "Galeophobia", "isCorrect" : true }
+        ]
+    },
+    {
+        "questionText" : "What was the largest army in history?",
+        "answerOptions" : [
+            { "answerText" : "America ", "isCorrect" : false },
+            { "answerText": "China", "isCorrect" : false },
+            { "answerText" : "India", "isCorrect" : true },
+            { "answerText": "Germany", "isCorrect" : false }
+        ]
+    }       
+]
