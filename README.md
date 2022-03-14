@@ -13,6 +13,7 @@ For local testing
 =============================
 
 npm run start
+
 This will open the application in localhost:3000
   
 For deploying to remote server
