@@ -29,3 +29,7 @@ ssh to remote server
 
 `cd ~/build`
 `sudo cp -r * /usr/share/nginx/html`
+
+Viewing the website
+==============================
+Open dhanya.co on you web browser
