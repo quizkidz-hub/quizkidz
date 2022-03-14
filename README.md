@@ -32,4 +32,4 @@ ssh to remote server
 
 Viewing the website
 ==============================
-Open https://www.dhanya.co on you web browser
+Open https://dhanya.co on you web browser
