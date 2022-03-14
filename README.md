@@ -1,6 +1,9 @@
 Install nodejs and npm (https://nodejs.org/en/download/)
+
 git clone https://github.com/quizkidz-hub/quizkidz.git
+
 cd quizkidz
+
 npm install
 
 For local testing
