@@ -1,3 +1,6 @@
+Setup
+=============================
+
 Install nodejs and npm (https://nodejs.org/en/download/)
 
 git clone https://github.com/quizkidz-hub/quizkidz.git
