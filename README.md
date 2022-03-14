@@ -24,6 +24,7 @@ For deploying to remote server
 `scp -i instance.key -r * opc@129.146.125.189:~/build`
 
 ssh to remote server
+
 `ssh -i instance.key opc@129.146.125.189`
 
 `cd ~/build`
