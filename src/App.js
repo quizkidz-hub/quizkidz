@@ -1,10 +1,28 @@
 import React, { useState, useEffect } from 'react';
+import ReactCardFlip from 'react-card-flip';
 
 export default function App() {
+	const CardStyle = {
+		margin: "20px",
+		width: "200px",
+		height: "300px",
+		"text-align": "center",
+		"justify-content" : "flex-start"
+	}
+
+	const ExplanationStyle = {
+		margin: "20px",
+		width: "150px",
+		height: "200px",
+		"text-align": "left",
+		"justify-content" : "flex-start"
+	}
+	  
 	class Question {
 		constructor() {
 			this.questionText = '';
-			this.answerOptions = [{answerText:'', isCorrect: false}]
+			this.answerOptions = [{answerText:'', isCorrect: false}];
+			this.explanation = '';
 		}
 	}
 	const [questions, setQuestions] = useState([new Question()]);
@@ -30,10 +48,13 @@ export default function App() {
 	  },[])
 
 	const [currentQuestion, setCurrentQuestion] = useState(0);
+	const [currentFlipQuestion, setCurrentFlipQuestion] = useState(0);
+	const [lastQuestion, setlastQuestion] = useState(false);
 	const [showScore, setShowScore] = useState(false);
 	const [score, setScore] = useState(0);
 	const [showCorrect, setShowCorrect] = useState(false);
 	const [showInCorrect, setShowInCorrect] = useState(false);
+	const [isFlipped, setIsFlipped] = useState(false);
 
 	const handleAnswerButtonClick = (e, isCorrect) => {
 
@@ -41,35 +62,45 @@ export default function App() {
 		setShowCorrect(false);
 		setShowInCorrect(false);
 
-		setTimeout(() => {
-			setShowCorrect(false);
-			setShowInCorrect(false);
-			
-			if (isCorrect === true) {
-				setScore(score+1)
-			}
-	
-			const nextQuestion = currentQuestion + 1;
-			if (nextQuestion < questions.length) {
-				setCurrentQuestion(nextQuestion);
-			} else {
-				setShowScore(true);
-			}		
-		}, 2000);
+		if (isCorrect === true) {
+			setScore(score+1)
+		}
 
+		const nextQuestion = currentQuestion + 1;
+		if (nextQuestion < questions.length) {
+			setCurrentQuestion(nextQuestion);
+		} else {
+			setlastQuestion(true);
+		}	
+
+		setCurrentFlipQuestion(currentQuestion);
 		if (isCorrect === true) {
 			setShowCorrect(true);
+			setIsFlipped((prev) => !prev)
 		} else {
 			setShowInCorrect(true);
+			setIsFlipped((prev) => !prev)
 		}
+	}
+
+	const handleNextButtonClick = (e) => {
+		if (lastQuestion === true) {
+			setShowScore(true);
+		}
+		setIsFlipped((prev) => !prev);
+		setlastQuestion(false)
 	}
 
 	return (
 		<div className='app'>
 			{showScore ? (
-				<div className='score-section'>You scored {score} out of {questions.length}</div>
+				<div style={CardStyle} className='score-section'>You scored <br></br> {score} out of {questions.length}</div>
 			) : (
-				<>
+				<ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+				<div
+        			style={CardStyle}
+        			className="CardFront"
+     			 >		
 					<div className='question-section'>
 						<div className='question-count'>
 							<span>Question {currentQuestion+1}</span>/{questions.length}
@@ -82,9 +113,27 @@ export default function App() {
 							(<button onClick={(e) => handleAnswerButtonClick(e, answerOption.isCorrect)}>{answerOption.answerText}</button>))
 						}
 					</div>
-					{showCorrect ? <div class="success-message">Correct</div>: null}
-					{showInCorrect ? <div class="failure-message">Incorrect</div>: null}
-				</>
+				</div>
+				<div
+					style={CardStyle}
+					
+					className="CardBack"
+				>	
+					{showCorrect ? 
+						<div>
+							<div className='success-message'> Correct </div>
+							<div style={ExplanationStyle}> {questions[currentFlipQuestion].explanation} </div>
+							<button onClick={(e) => handleNextButtonClick(e)}> Next </button>
+						</div> : null}
+					{showInCorrect ? 
+						<div>
+							<div className='failure-message'>Incorrect</div>
+							<div style={ExplanationStyle}> {questions[currentFlipQuestion].explanation} </div>
+							<button onClick={(e) => handleNextButtonClick(e)}> Next </button>
+						</div> : null}
+				</div>
+
+				</ReactCardFlip>
 			)}
 		</div>
 	);

@@ -71,18 +71,19 @@ body {
 
 /* ANSWERS/RIGHT SECTION */
 .answer-section {
-  width: 100%;
+  width: 95%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .success-message {
-  width: 96%;
+  width: 80%;
   font-size: 16px;
   color: #0f0f0e;
   background-color: #88e24b;
-  border-radius: 15px;
+  border-radius: 1px;
   display: flex;
   padding: 5px;
   justify-content: flex-start;
@@ -91,11 +92,11 @@ body {
 }
 
 .failure-message {
-  width: 96%;
+  width: 80%;
   font-size: 16px;
   color: #ffffff;
   background-color: #c94768;
-  border-radius: 15px;
+  border-radius: 1px;
   display: flex;
   padding: 5px;
   justify-content: flex-start;
@@ -104,7 +105,7 @@ body {
 }
 
 button {
-  width: 100%;
+  width: 90%;
   font-size: 16px;
   color: #0c0c0c;
   background-color: #eff0f3;
