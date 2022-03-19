@@ -14,16 +14,16 @@
         "answerOptions" : [
             { "answerText" : "Gobi", "isCorrect" : false },
             { "answerText": "Antartica", "isCorrect" : true },
-            { "answerText" : "27", "isCorrect" : false },
-            { "answerText": "25", "isCorrect" : false }
+            { "answerText" : "Arctic", "isCorrect" : false },
+            { "answerText": "Sahara", "isCorrect" : false }
         ],
         "explanation" : "The largest desert on earth is the Antarctic desert, covering the continent of Antarctica with a size of around 5.5 million square miles."
     },
     {
         "questionText" : "What is longest river in the world?",
         "answerOptions" : [
-            { "answerText" : "Amazon", "isCorrect" : false },
-            { "answerText": "Nile", "isCorrect" : true },
+            { "answerText" : "Amazon", "isCorrect" : true },
+            { "answerText": "Nile", "isCorrect" : false },
             { "answerText" : "Missisippi", "isCorrect" : false },
             { "answerText": "Yantze", "isCorrect" : false }
         ],
