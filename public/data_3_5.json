@@ -1,22 +1,102 @@
 [
     {
-        "questionText" : "How many colors are there in the rainbow?",
+        "questionText" : "Which human’s organ has four chambers?",
         "answerOptions" : [
-            { "answerText" : "6", "isCorrect" : false },
-            { "answerText": "5", "isCorrect" : false },
-            { "answerText" : "7", "isCorrect" : true },
-            { "answerText": "8", "isCorrect" : false }
+            { "answerText" : "Kidney", "isCorrect" : false },
+            { "answerText": "Lungs", "isCorrect" : false },
+            { "answerText" : "Heart", "isCorrect" : true },
+            { "answerText": "Stomach", "isCorrect" : false }
         ],
-        "explanation" : "The rainbow has 7 colors. Violet, Indigo, Blue, Green, Yellow, Orange, and Red"
+        "explanation" : "A typical heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of the heart."
     },
     {
-        "questionText" : "How many letters are there in the alphabet?",
+        "questionText" : "Which is the largest desert in the world?",
         "answerOptions" : [
-            { "answerText" : "28", "isCorrect" : false },
-            { "answerText": "26", "isCorrect" : true },
+            { "answerText" : "Gobi", "isCorrect" : false },
+            { "answerText": "Antartica", "isCorrect" : true },
             { "answerText" : "27", "isCorrect" : false },
             { "answerText": "25", "isCorrect" : false }
         ],
-        "explanation" : "We have 26 alphabets in English"
-    }   
+        "explanation" : "The largest desert on earth is the Antarctic desert, covering the continent of Antarctica with a size of around 5.5 million square miles."
+    },
+    {
+        "questionText" : "What is longest river in the world?",
+        "answerOptions" : [
+            { "answerText" : "Amazon", "isCorrect" : false },
+            { "answerText": "Nile", "isCorrect" : true },
+            { "answerText" : "Missisippi", "isCorrect" : false },
+            { "answerText": "Yantze", "isCorrect" : false }
+        ],
+        "explanation" : "The longest river in the world, measured from its mouth to its most distant is Amazon with 4,345 miles. Nile has length of 4258 miles"
+    },
+    {
+        "questionText" : "Who is the daughter of Simba in Lion King?",
+        "answerOptions" : [
+            { "answerText" : "Kiara", "isCorrect" : true },
+            { "answerText": "Kanye", "isCorrect" : false },
+            { "answerText" : "Kiwa", "isCorrect" : false },
+            { "answerText": "Karina", "isCorrect" : false }
+        ],
+        "explanation" : "Simba and Nala have a daughter, Kiara. "
+    },
+    {
+        "questionText" : "Name the smallest country",
+        "answerOptions" : [
+            { "answerText" : "Burundi", "isCorrect" : false },
+            { "answerText": "Brunei", "isCorrect" : false },
+            { "answerText" : "Jordan", "isCorrect" : false },
+            { "answerText": "Vatican City", "isCorrect" : true }
+        ],
+        "explanation" : "The smallest country in the world is Vatican City, with a landmass of just 0.49 square miles"
+    },
+    {
+        "questionText" : "What is a group of Tigers called?",
+        "answerOptions" : [
+            { "answerText" : "Pride", "isCorrect" : false },
+            { "answerText": "Herd", "isCorrect" : false },
+            { "answerText" : "Group", "isCorrect" : false },
+            { "answerText": "Streak", "isCorrect" : true }
+        ],
+        "explanation" : "A group of tigers is called a “streak”, but they rarely gather in the wild."
+    }, 
+    {
+        "questionText" : "How many zeros are there in a million? ",
+        "answerOptions" : [
+            { "answerText" : "6", "isCorrect" : true },
+            { "answerText": "5", "isCorrect" : false },
+            { "answerText" : "7", "isCorrect" : false },
+            { "answerText": "8", "isCorrect" : false }
+        ],
+        "explanation" : "There are 6 zeros in a million."
+    },   
+    {
+        "questionText" : "Name the smallest continent",
+        "answerOptions" : [
+            { "answerText" : "Greenland", "isCorrect" : false },
+            { "answerText": "Arctic", "isCorrect" : false },
+            { "answerText" : "Australia", "isCorrect" : true },
+            { "answerText": "Europe", "isCorrect" : false }
+        ],
+        "explanation" : "Earth has seven continents. Asia is the biggest and Australia is the smallest."
+    }, 
+    {
+        "questionText" : "What is the angle at which Earth’s axis is tilted?",
+        "answerOptions" : [
+            { "answerText" : "27", "isCorrect" : false },
+            { "answerText": "30", "isCorrect" : false },
+            { "answerText" : "15", "isCorrect" : false },
+            { "answerText": "23.5", "isCorrect" : true }
+        ],
+        "explanation" : "Earth's axial tilt (also known as the obliquity of the ecliptic) is about 23.5 degrees."
+    }, 
+    {
+        "questionText" : "Which is the deepest place on Earth?",
+        "answerOptions" : [
+            { "answerText" : "Mariana Trench", "isCorrect" : true },
+            { "answerText": "Tonga Trench", "isCorrect" : false },
+            { "answerText" : "Japan Trench", "isCorrect" : false },
+            { "answerText": "Puerto Rico Trench", "isCorrect" : false }
+        ],
+        "explanation" : "It is 11,034 meters (36,201 feet) deep, which is almost 7 miles."
+    }      
 ]

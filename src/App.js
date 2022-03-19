@@ -7,15 +7,15 @@ export default function App() {
 		width: "200px",
 		height: "300px",
 		"text-align": "center",
-		"justify-content" : "flex-start"
+		"justify-content" : "space-between"
 	}
 
 	const ExplanationStyle = {
-		margin: "20px",
-		width: "150px",
+		margin: "0px",
+		width: "200px",
 		height: "200px",
 		"text-align": "left",
-		"justify-content" : "flex-start"
+		"justify-content" : "space-between"
 	}
 	  
 	class Question {
