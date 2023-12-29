@@ -5,7 +5,7 @@ export default function App() {
 	const CardStyle = {
 		margin: "20px",
 		width: "500px",
-		height: "400px",
+		height: "800px",
 		"text-align": "center",
 		"justify-content" : "space-between"
 	}
@@ -13,7 +13,7 @@ export default function App() {
 	const ExplanationStyle = {
 		margin: "0px",
 		width: "400px",
-		height: "300px",
+		height: "700px",
 		"text-align": "left",
 		"justify-content" : "space-between"
 	}
@@ -39,7 +39,6 @@ export default function App() {
 	const [isFlipped, setIsFlipped] = useState(false);
 
 	const getData=(category)=>{
-		alert(category)
 		fetch(category+'.json'
 		,{
 		  headers : { 
@@ -137,13 +136,19 @@ export default function App() {
 				{showCorrect ? 
 					<div>
 						<div className='success-message'> Correct </div>
-						<div style={ExplanationStyle}> {questions[currentFlipQuestion].explanation} </div>
+						<div style={ExplanationStyle}> 
+							{questions[currentFlipQuestion].explanation} 
+							<img src={questions[currentFlipQuestion].image}  width="80%"></img>
+						</div>
 						<button onClick={(e) => handleNextButtonClick(e)}> Next </button>
 					</div> : null}
 				{showInCorrect ? 
 					<div>
 						<div className='failure-message'>Incorrect</div>
-						<div style={ExplanationStyle}> {questions[currentFlipQuestion].explanation} </div>
+						<div style={ExplanationStyle}> 
+							{questions[currentFlipQuestion].explanation} 
+							<img src={questions[currentFlipQuestion].image}  width="80%"></img>
+						</div>
 						<button onClick={(e) => handleNextButtonClick(e)}> Next </button>
 					</div> : null}
 			</div>
@@ -172,7 +177,7 @@ export default function App() {
 	function renderCategories() {
 		return (
 				<div style={CardStyle} className='front-page'>
-					<button onClick={(e) => handleCategories(e, "geograph")}>Geography</button>
+					<button onClick={(e) => handleCategories(e, "Geography")}>Geography</button>
 					<button onClick={(e) => handleCategories(e, "Science")}>Science</button>
 					<button>Sports</button>
 					<button>Math</button>
