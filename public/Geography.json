@@ -1,13 +1,13 @@
 [
     {
-        "questionText" : "Which human’s organ has four chambers?",
+        "questionText" : "What is the largest country in the world?",
         "answerOptions" : [
-            { "answerText" : "Kidney", "isCorrect" : false },
-            { "answerText": "Lungs", "isCorrect" : false },
-            { "answerText" : "Heart", "isCorrect" : true },
-            { "answerText": "Stomach", "isCorrect" : false }
+            { "answerText" : "China", "isCorrect" : false },
+            { "answerText": "USA", "isCorrect" : false },
+            { "answerText" : "Russia", "isCorrect" : true },
+            { "answerText": "Australia", "isCorrect" : false }
         ],
-        "explanation" : "A typical heart has two upper and two lower chambers. The upper chambers, the right and left atria, receive incoming blood. The lower chambers, the more muscular right and left ventricles, pump blood out of the heart."
+        "explanation" : "Russia is the largest country being a total of 6,602,000 square miles in area."
     },
     {
         "questionText" : "Which is the largest desert in the world?",
@@ -30,14 +30,14 @@
         "explanation" : "The longest river in the world, measured from its mouth to its most distant is Amazon with 4,345 miles. Nile has length of 4258 miles"
     },
     {
-        "questionText" : "Who is the daughter of Simba in Lion King?",
+        "questionText" : "What is the shortest river in USA?",
         "answerOptions" : [
-            { "answerText" : "Kiara", "isCorrect" : true },
-            { "answerText": "Kanye", "isCorrect" : false },
-            { "answerText" : "Kiwa", "isCorrect" : false },
-            { "answerText": "Karina", "isCorrect" : false }
+            { "answerText" : "Roe River", "isCorrect" : true },
+            { "answerText": "Chute River", "isCorrect" : false },
+            { "answerText" : "Po River", "isCorrect" : false },
+            { "answerText": "D River", "isCorrect" : false }
         ],
-        "explanation" : "Simba and Nala have a daughter, Kiara. "
+        "explanation" : "Roe River is the shortest river in USA being only 200 feet long. "
     },
     {
         "questionText" : "Name the smallest country",
@@ -50,24 +50,24 @@
         "explanation" : "The smallest country in the world is Vatican City, with a landmass of just 0.49 square miles"
     },
     {
-        "questionText" : "What is a group of Tigers called?",
+        "questionText" : "What is the largest ocean in the world?",
         "answerOptions" : [
-            { "answerText" : "Pride", "isCorrect" : false },
-            { "answerText": "Herd", "isCorrect" : false },
-            { "answerText" : "Group", "isCorrect" : false },
-            { "answerText": "Streak", "isCorrect" : true }
+            { "answerText" : "Atlantic Ocean", "isCorrect" : false },
+            { "answerText": "Southern Ocean", "isCorrect" : false },
+            { "answerText" : "Indian Ocean ", "isCorrect" : false },
+            { "answerText": "Pacific Ocean", "isCorrect" : true }
         ],
-        "explanation" : "A group of tigers is called a “streak”, but they rarely gather in the wild."
+        "explanation" : "The Pacific Ocean is the largest ocean having an area of 64 million square miles."
     }, 
     {
-        "questionText" : "How many zeros are there in a million? ",
+        "questionText" : "What is the smallest mountain in the world by elevation? ",
         "answerOptions" : [
-            { "answerText" : "6", "isCorrect" : true },
-            { "answerText": "5", "isCorrect" : false },
-            { "answerText" : "7", "isCorrect" : false },
-            { "answerText": "8", "isCorrect" : false }
+            { "answerText" : "Mount Tenpō", "isCorrect" : true },
+            { "answerText": "Mauna Kea", "isCorrect" : false },
+            { "answerText" : "Mount Wycheproof", "isCorrect" : false },
+            { "answerText": "Mount Whitney", "isCorrect" : false }
         ],
-        "explanation" : "There are 6 zeros in a million."
+        "explanation" : "Mount Tenpō is the shortest mountain in the world being only 15 feet in height"
     },   
     {
         "questionText" : "Name the smallest continent",
@@ -80,14 +80,14 @@
         "explanation" : "Earth has seven continents. Asia is the biggest and Australia is the smallest."
     }, 
     {
-        "questionText" : "What is the angle at which Earth’s axis is tilted?",
+        "questionText" : "Which Asian island nation has the most number of islands?",
         "answerOptions" : [
-            { "answerText" : "27", "isCorrect" : false },
-            { "answerText": "30", "isCorrect" : false },
-            { "answerText" : "15", "isCorrect" : false },
-            { "answerText": "23.5", "isCorrect" : true }
+            { "answerText" : "Phillipenes", "isCorrect" : false },
+            { "answerText": "Japan", "isCorrect" : false },
+            { "answerText" : "Veitnam", "isCorrect" : false },
+            { "answerText": "Indonesia", "isCorrect" : true }
         ],
-        "explanation" : "Earth's axial tilt (also known as the obliquity of the ecliptic) is about 23.5 degrees."
+        "explanation" : "With over 17,000 islands sprawling across the equator, Indonesia had the most islands in the world."
     }, 
     {
         "questionText" : "Which is the deepest place on Earth?",
@@ -97,6 +97,6 @@
             { "answerText" : "Japan Trench", "isCorrect" : false },
             { "answerText": "Puerto Rico Trench", "isCorrect" : false }
         ],
-        "explanation" : "It is 11,034 meters (36,201 feet) deep, which is almost 7 miles."
-    }      
+        "explanation" : "The Mariana Trench is the correct answer being 11,034 meters (36,201 feet) deep, which is almost 7 miles."
+    } 
 ]

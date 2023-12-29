@@ -1,0 +1,92 @@
+[
+    {
+        "questionText" : "How many world cups has Australia won in cricket?",
+        "answerOptions" : [
+            { "answerText" : "6", "isCorrect" : false },
+            { "answerText": "4", "isCorrect" : false },
+            { "answerText" : "7", "isCorrect" : true },
+            { "answerText": "5", "isCorrect" : false }
+        ]
+    },
+    {
+        "questionText" : "How many gold medals did India win in hockey Olympics?",
+        "answerOptions" : [
+            { "answerText" : "7", "isCorrect" : false },
+            { "answerText": "8", "isCorrect" : true },
+            { "answerText" : "5", "isCorrect" : false },
+            { "answerText": "6", "isCorrect" : false }
+        ]
+    },
+    {
+        "questionText" : "What is the most dangerous sport?",
+        "answerOptions" : [
+            { "answerText" : "BASE Jumping", "isCorrect" : true },
+            { "answerText": "Basketball", "isCorrect" : false },
+            { "answerText" : "Big Wave Surfing", "isCorrect" : false },
+            { "answerText": "Soccer", "isCorrect" : false }
+        ]
+    },   
+    {
+        "questionText" : "What is the most well-paying sport?",
+        "answerOptions" : [
+            { "answerText" : "Basketball", "isCorrect" : true },
+            { "answerText": "Soccer", "isCorrect" : false },
+            { "answerText" : "Baseball", "isCorrect" : false },
+            { "answerText": "Boxing", "isCorrect" : false }
+        ]
+    }, 
+    {
+        "questionText" : "Who is the fastest active athlete in Olympics?",
+        "answerOptions" : [
+            { "answerText" : "Usain Bolt", "isCorrect" : false },
+            { "answerText": "", "isCorrect" : false },
+            { "answerText" : "Hussain", "isCorrect" : false },
+            { "answerText": "Noah Lyles", "isCorrect" : true }
+        ]
+    },  
+    {
+        "questionText" : "Which is the least-played sport?",
+        "answerOptions" : [
+            { "answerText" : "Up", "isCorrect" : false },
+            { "answerText": "Right", "isCorrect" : false },
+            { "answerText" : "Left", "isCorrect" : true },
+            { "answerText": "Down", "isCorrect" : false }
+        ]
+    }, 
+    {
+        "questionText" : "How many sports are in the Olympics?",
+        "answerOptions" : [
+            { "answerText" : "8", "isCorrect" : false },
+            { "answerText": "5", "isCorrect" : false },
+            { "answerText" : "7", "isCorrect" : true },
+            { "answerText": "6", "isCorrect" : false }
+        ]
+    },   
+    {
+        "questionText" : "Which is the most popular sport in the Olympics?",
+        "answerOptions" : [
+            { "answerText" : "Soldiers", "isCorrect" : false },
+            { "answerText": "Brutus", "isCorrect" : true },
+            { "answerText" : "Butler", "isCorrect" : false},
+            { "answerText": "Assasin", "isCorrect" : false }
+        ]
+    },
+    {
+        "questionText" : "Who is the richest sports player?",
+        "answerOptions" : [
+            { "answerText" : "Spinophobia", "isCorrect" : false },
+            { "answerText": "Arachnophobia", "isCorrect" : false },
+            { "answerText" : "Nyctophobia", "isCorrect" : false },
+            { "answerText": "Galeophobia", "isCorrect" : true }
+        ]
+    },
+    {
+        "questionText" : "How many sports are there?",
+        "answerOptions" : [
+            { "answerText" : "America ", "isCorrect" : false },
+            { "answerText": "China", "isCorrect" : false },
+            { "answerText" : "India", "isCorrect" : true },
+            { "answerText": "Germany", "isCorrect" : false }
+        ]
+    }       
+]

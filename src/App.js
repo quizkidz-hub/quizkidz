@@ -4,16 +4,16 @@ import ReactCardFlip from 'react-card-flip';
 export default function App() {
 	const CardStyle = {
 		margin: "20px",
-		width: "200px",
-		height: "300px",
+		width: "500px",
+		height: "400px",
 		"text-align": "center",
 		"justify-content" : "space-between"
 	}
 
 	const ExplanationStyle = {
 		margin: "0px",
-		width: "200px",
-		height: "200px",
+		width: "400px",
+		height: "300px",
 		"text-align": "left",
 		"justify-content" : "space-between"
 	}
@@ -26,8 +26,21 @@ export default function App() {
 		}
 	}
 	const [questions, setQuestions] = useState([new Question()]);
-	const getData=()=>{
-		fetch('data_3_5.json'
+	const [currentQuestion, setCurrentQuestion] = useState(0);
+	const [currentFlipQuestion, setCurrentFlipQuestion] = useState(0);
+	const [lastQuestion, setlastQuestion] = useState(false);
+	const [showScore, setShowScore] = useState(false);
+	const [showFrontpage, setShowFrontpage] = useState(true);
+	const [score, setScore] = useState(0);
+	const [showCorrect, setShowCorrect] = useState(false);
+	const [showInCorrect, setShowInCorrect] = useState(false);
+	const [showCategories, setShowCategories] = useState(false);
+	const [category, setCategory] = useState(null);
+	const [isFlipped, setIsFlipped] = useState(false);
+
+	const getData=(category)=>{
+		alert(category)
+		fetch(category+'.json'
 		,{
 		  headers : { 
 			'Content-Type': 'application/json',
@@ -43,18 +56,10 @@ export default function App() {
 			  setQuestions(data)
 		  });
 	  }
-	  useEffect(()=>{
-		getData()
-	  },[])
+	//   useEffect(()=>{
+	// 	getData()
+	//   },[])
 
-	const [currentQuestion, setCurrentQuestion] = useState(0);
-	const [currentFlipQuestion, setCurrentFlipQuestion] = useState(0);
-	const [lastQuestion, setlastQuestion] = useState(false);
-	const [showScore, setShowScore] = useState(false);
-	const [score, setScore] = useState(0);
-	const [showCorrect, setShowCorrect] = useState(false);
-	const [showInCorrect, setShowInCorrect] = useState(false);
-	const [isFlipped, setIsFlipped] = useState(false);
 
 	const handleAnswerButtonClick = (e, isCorrect) => {
 
@@ -91,50 +96,102 @@ export default function App() {
 		setlastQuestion(false)
 	}
 
+	const handlePlayButtonClick = (e) => {
+		setShowFrontpage(false);
+		setShowCategories(true);
+	}
+
+
+
+	const handleCategories = (e, category) => {
+		setCategory(category);
+		getData(category);
+		setShowCategories(false);
+	}
+
+	function renderQuiz() {
+		return(
+			<ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
+			<div
+				style={CardStyle}
+				className="CardFront"
+			  >		
+				<div className='question-section'>
+					<div className='question-count'>
+						<span>Question {currentQuestion+1}</span>/{questions.length}
+					</div>
+					<div className='question-text'>{questions[currentQuestion].questionText}</div>
+				</div>
+				<div className='answer-section'>
+					{
+						questions[currentQuestion].answerOptions.map((answerOption) => 
+						(<button onClick={(e) => handleAnswerButtonClick(e, answerOption.isCorrect)}>{answerOption.answerText}</button>))
+					}
+				</div>
+			</div>
+			<div
+				style={CardStyle}
+				
+				className="CardBack"
+			>	
+				{showCorrect ? 
+					<div>
+						<div className='success-message'> Correct </div>
+						<div style={ExplanationStyle}> {questions[currentFlipQuestion].explanation} </div>
+						<button onClick={(e) => handleNextButtonClick(e)}> Next </button>
+					</div> : null}
+				{showInCorrect ? 
+					<div>
+						<div className='failure-message'>Incorrect</div>
+						<div style={ExplanationStyle}> {questions[currentFlipQuestion].explanation} </div>
+						<button onClick={(e) => handleNextButtonClick(e)}> Next </button>
+					</div> : null}
+			</div>
+
+			</ReactCardFlip>
+		);
+	}
+
+	function renderScore() {
+		return(
+			<div style={CardStyle} className='score-section'>You scored <br></br> {score} out of {questions.length} </div>
+		);
+	}
+
+	function renderFrontPage() {
+		return (
+			<div style={CardStyle} className='front-page'>
+				<img src="logo.png" width="80%"></img>
+				<button>Login with Google</button>
+				<button>Login with Facebook</button>
+				<button onClick={(e) => handlePlayButtonClick(e)}> Play</button>	
+			</div>
+		);
+	}
+
+	function renderCategories() {
+		return (
+				<div style={CardStyle} className='front-page'>
+					<button onClick={(e) => handleCategories(e, "geograph")}>Geography</button>
+					<button onClick={(e) => handleCategories(e, "Science")}>Science</button>
+					<button>Sports</button>
+					<button>Math</button>
+				</div>
+		);
+	}
+
+	function renderFrontPageOrQuiz() {
+		return (
+			<div>
+				{showFrontpage ? renderFrontPage() 
+				: <div> {showCategories ? renderCategories() : renderQuiz()} </div>}
+			</div>
+		);
+	}
+
 	return (
 		<div className='app'>
-			{showScore ? (
-				<div style={CardStyle} className='score-section'>You scored <br></br> {score} out of {questions.length}</div>
-			) : (
-				<ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-				<div
-        			style={CardStyle}
-        			className="CardFront"
-     			 >		
-					<div className='question-section'>
-						<div className='question-count'>
-							<span>Question {currentQuestion+1}</span>/{questions.length}
-						</div>
-						<div className='question-text'>{questions[currentQuestion].questionText}</div>
-					</div>
-					<div className='answer-section'>
-						{
-							questions[currentQuestion].answerOptions.map((answerOption) => 
-							(<button onClick={(e) => handleAnswerButtonClick(e, answerOption.isCorrect)}>{answerOption.answerText}</button>))
-						}
-					</div>
-				</div>
-				<div
-					style={CardStyle}
-					
-					className="CardBack"
-				>	
-					{showCorrect ? 
-						<div>
-							<div className='success-message'> Correct </div>
-							<div style={ExplanationStyle}> {questions[currentFlipQuestion].explanation} </div>
-							<button onClick={(e) => handleNextButtonClick(e)}> Next </button>
-						</div> : null}
-					{showInCorrect ? 
-						<div>
-							<div className='failure-message'>Incorrect</div>
-							<div style={ExplanationStyle}> {questions[currentFlipQuestion].explanation} </div>
-							<button onClick={(e) => handleNextButtonClick(e)}> Next </button>
-						</div> : null}
-				</div>
-
-				</ReactCardFlip>
-			)}
+			{showScore ? renderScore() : renderFrontPageOrQuiz() }
 		</div>
 	);
 }
