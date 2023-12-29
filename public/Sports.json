@@ -1,0 +1,122 @@
+[
+    {
+        "questionText": "Which prestigious European football (soccer) tournament features club teams competing across a season-long campaign, culminating in a thrilling final match?",
+        "answerOptions": [
+            {"answerText": "FIFA World Cup", "isCorrect": false},
+            {"answerText": "UEFA European Championship", "isCorrect": false},
+            {"answerText": "UEFA Champions League", "isCorrect": true},
+            {"answerText": "Copa Libertadores", "isCorrect": false},
+            {"answerText": "FA Cup", "isCorrect": false}
+        ],
+        "explanation": "Considered the pinnacle of club football in Europe, the UEFA Champions League brings together the continent's top teams in a grueling knockout tournament. From group stage battles to epic final clashes, the Champions League captivates millions of fans worldwide with its high-pressure matches and nail-biting drama.",
+        "image": "Sports/1.jpeg"
+    },
+    {
+        "questionText": "Which iconic motorsport race, nicknamed 'The Greatest Spectacle in Racing,' takes place annually on the Indianapolis Motor Speedway, featuring open-wheel cars reaching speeds of over 200 mph?",
+        "answerOptions": [
+            {"answerText": "Daytona 500", "isCorrect": false},
+            {"answerText": "Monaco Grand Prix", "isCorrect": false},
+            {"answerText": "Formula One World Championship", "isCorrect": false},
+            {"answerText": "Indianapolis 500", "isCorrect": true},
+            {"answerText": "Le Mans 24 Hours", "isCorrect": false}
+        ],
+        "explanation": "Held on Memorial Day weekend, the Indianapolis 500 is a historic tradition in American motorsport. The event's fast-paced action, daring drivers, and electrifying atmosphere have earned it the moniker 'The Greatest Spectacle in Racing,' captivating fans with its high speeds and close competition.",
+        "image": "Sports/2.jpeg"
+    },
+    {
+        "questionText": "Which dynamic summer Olympic sport combines artistic skill and athleticism, featuring routines on uneven bars, balance beam, floor exercise, and vault?",
+        "answerOptions": [
+            {"answerText": "Rhythmic gymnastics", "isCorrect": false},
+            {"answerText": "Artistic gymnastics", "isCorrect": true},
+            {"answerText": "Trampoline", "isCorrect": false},
+            {"answerText": "Acrobatic gymnastics", "isCorrect": false},
+            {"answerText": "Aerobics", "isCorrect": false}
+        ],
+        "explanation": "With its graceful movements, daring stunts, and intricate routines, artistic gymnastics has been a mainstay of the Olympic Games since 1896. Gymnasts push their physical limits and artistic expression to the max, performing gravity-defying feats that leave audiences awestruck.",
+        "image": "Sports/3.jpeg"
+    },
+    {
+        "questionText": "Which iconic cricket competition, contested between England and Australia every two years, is considered the pinnacle of the sport and often features nail-biting finishes and intense rivalries?",
+        "answerOptions": [
+            {"answerText": "Indian Premier League", "isCorrect": false},
+            {"answerText": "Cricket World Cup", "isCorrect": false},
+            {"answerText": "ICC Champions Trophy", "isCorrect": false},
+            {"answerText": "The Ashes", "isCorrect": true},
+            {"answerText": "Big Bash League", "isCorrect": false}
+        ],
+        "explanation": "Dating back to 1882, The Ashes is the oldest and most prestigious Test cricket series, pitting England against their fiercest cricketing rivals, Australia. The series is steeped in history, tradition, and fierce competition, with every match drawing passionate support from fans around the world.",
+        "image": "Sports/4.jpeg"
+    },
+    {
+        "questionText": "Which legendary American boxer, nicknamed 'The Greatest,' transcended the sport with his social activism and remains one of the most influential athletes of all time?",
+        "answerOptions": [
+            {"answerText": "Mike Tyson", "isCorrect": false},
+            {"answerText": "Floyd Mayweather Jr.", "isCorrect": false},
+            {"answerText": "Joe Frazier", "isCorrect": false},
+            {"answerText": "Muhammad Ali", "isCorrect": true},
+            {"answerText": "Manny Pacquiao", "isCorrect": false}
+        ],
+        "explanation": "Beyond his electrifying boxing skills, Muhammad Ali was a global icon who championed civil rights and social justice. His quick wit, charisma, and outspoken nature made him a household name, and his legacy continues to inspire generations of athletes and activists around the world.",
+        "image": "Sports/5.jpeg"
+    },
+    {
+        "questionText": "Which iconic baseball stadium, nicknamed 'The House that Ruth Built,' was the home of the New York Yankees for 86 seasons?",
+        "answerOptions": [
+            {"answerText": "Fenway Park", "isCorrect": false},
+            {"answerText": "Wrigley Field", "isCorrect": false},
+            {"answerText": "Dodger Stadium", "isCorrect": false},
+            {"answerText": "Yankee Stadium", "isCorrect": true},
+            {"answerText": "Citi Field", "isCorrect": false}
+        ],
+        "explanation": "This legendary ballpark, originally opened in 1923, witnessed Babe Ruth's home run heroics and countless historic moments in baseball history. Its imposing presence and storied past earned it the moniker 'The House that Ruth Built,' a testament to its lasting legacy.",
+        "image": "Sports/6.jpeg"
+    },
+    {
+        "questionText": "What renowned tennis tournament is played annually on grass courts at the All England Lawn Tennis Club, often referred to as 'Wimbledon'?",
+        "answerOptions": [
+            {"answerText": "French Open", "isCorrect": false},
+            {"answerText": "Australian Open", "isCorrect": false},
+            {"answerText": "US Open", "isCorrect": false},
+            {"answerText": "Wimbledon", "isCorrect": true},
+            {"answerText": "Italian Open", "isCorrect": false}
+        ],
+        "explanation": "Held in late June and early July, Wimbledon is the oldest tennis tournament in the world, known for its traditional white dress code, manicured grass courts, and prestigious championship titles. Winning at Wimbledon is considered a pinnacle achievement in professional tennis.",
+        "image": "Sports/7.jpeg"
+    },
+    {
+        "questionText": "Which iconic basketball player, nicknamed 'His Airness,' revolutionized the sport with his gravity-defying dunks and dazzling footwork?",
+        "answerOptions": [
+            {"answerText": "LeBron James", "isCorrect": false},
+            {"answerText": "Magic Johnson", "isCorrect": false},
+            {"answerText": "Kareem Abdul-Jabbar", "isCorrect": false},
+            {"answerText": "Stephen Curry", "isCorrect": false},
+            {"answerText": "Michael Jordan", "isCorrect": true}
+        ],
+        "explanation": "Michael Jordan's impact on basketball transcends statistics and trophies. His athleticism, swagger, and iconic sneakers redefined the game, making him a global icon and inspiring generations of young players. His nickname 'His Airness' perfectly captures his seemingly effortless airborne feats.",
+        "image": "Sports/8.jpeg"
+    },
+    {
+        "questionText": "What prestigious international sporting event features athletes competing in over 30 summer and winter sports, showcasing the pinnacle of human athleticism?",
+        "answerOptions": [
+            {"answerText": "World Championships", "isCorrect": false},
+            {"answerText": "Pan American Games", "isCorrect": false},
+            {"answerText": "Asian Games", "isCorrect": false},
+            {"answerText": "Olympic Games", "isCorrect": true},
+            {"answerText": "Commonwealth Games", "isCorrect": false}
+        ],
+        "explanation": "Held every four years and considered the most significant global sporting event, the Olympics bring together athletes from around the world in a celebration of athletic excellence and sporting spirit. Whether it's the Summer or Winter Games, the world watches with bated breath as Olympians strive for gold.",
+        "image": "Sports/9.jpeg"
+    },
+    {
+        "questionText": "Which American football quarterback led the New England Patriots to a record six Super Bowl victories, cementing his status as one of the greatest players of all time?",
+        "answerOptions": [
+            {"answerText": "Peyton Manning", "isCorrect": false},
+            {"answerText": "Joe Montana", "isCorrect": false},
+            {"answerText": "Terry Bradshaw", "isCorrect": false},
+            {"answerText": "Dan Marino", "isCorrect": false},
+            {"answerText": "Tom Brady", "isCorrect": true}
+        ],
+        "explanation": "With his unmatched leadership, strategic mind, and clutch performances, Tom Brady redefined quarterback play and etched his name in NFL history. His six Super Bowl titles with the New England Patriots stand as a testament to his enduring legacy.",
+        "image": "Sports/10.jpeg"
+    }
+]

@@ -179,8 +179,7 @@ export default function App() {
 				<div style={CardStyle} className='front-page'>
 					<button onClick={(e) => handleCategories(e, "Geography")}>Geography</button>
 					<button onClick={(e) => handleCategories(e, "Science")}>Science</button>
-					<button>Sports</button>
-					<button>Math</button>
+					<button onClick={(e) => handleCategories(e, "Sports")}>Sports</button>
 				</div>
 		);
 	}
