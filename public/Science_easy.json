@@ -1,0 +1,122 @@
+[
+  {
+      "questionText": "What is the smallest unit of matter called?",
+      "answerOptions": [
+          {"answerText": "Molecule", "isCorrect": false},
+          {"answerText": "Cell", "isCorrect": false},
+          {"answerText": "Organ", "isCorrect": false},
+          {"answerText": "Atom", "isCorrect": true},
+          {"answerText": "Tissue", "isCorrect": false}
+      ],
+      "explanation": "An atom is the fundamental building block of all matter. It's incredibly small, but trillions of atoms come together to form everything you see and touch.",
+      "image": "Science_easy/1.jpeg"
+  },
+  {
+      "questionText": "What is the closest star to Earth?",
+      "answerOptions": [
+          {"answerText": "Proxima Centauri", "isCorrect": false},
+          {"answerText": "Sirius", "isCorrect": false},
+          {"answerText": "The Moon", "isCorrect": false},
+          {"answerText": "The Sun", "isCorrect": true},
+          {"answerText": "Betelgeuse", "isCorrect": false}
+      ],
+      "explanation": "Our Sun is a giant ball of hot gas that provides light and heat to Earth, allowing life to exist.",
+      "image": "Science_easy/2.jpeg"
+  },
+  {
+      "questionText": "How many colors are there in a rainbow?",
+      "answerOptions": [
+          {"answerText": "3", "isCorrect": false},
+          {"answerText": "5", "isCorrect": false},
+          {"answerText": "7", "isCorrect": true},
+          {"answerText": "10", "isCorrect": false},
+          {"answerText": "Infinite", "isCorrect": false}
+      ],
+      "explanation": "Rainbows are formed when sunlight refracts (bends) through water droplets in the air, separating the light into its seven colors: red, orange, yellow, green, blue, indigo, and violet.",
+      "image": "Science_easy/3.jpeg"
+  },
+  {
+      "questionText": "What is the study of insects called?",
+      "answerOptions": [
+          {"answerText": "Herpetology", "isCorrect": false},
+          {"answerText": "Ornithology", "isCorrect": false},
+          {"answerText": "Entomology ", "isCorrect": true},
+          {"answerText": "Ichthyology", "isCorrect": false},
+          {"answerText": "Mycology", "isCorrect": false}
+      ],
+      "explanation": "Entomology is the scientific study of insects, which are the most diverse group of animals on Earth.",
+      "image": "Science_easy/4.jpeg"
+  },
+  {
+      "questionText": "What is the hardest natural substance found on Earth?",
+      "answerOptions": [
+          {"answerText": "Gold", "isCorrect": false},
+          {"answerText": "Bone", "isCorrect": false},
+          {"answerText": "Glass", "isCorrect": false},
+          {"answerText": "Diamond", "isCorrect": true},
+          {"answerText": "Steel", "isCorrect": false}
+      ],
+      "explanation": "Diamonds are made up of pure carbon atoms arranged in a very strong crystal structure, making them incredibly hard and resistant to scratches.",
+      "image": "Science_easy/5.jpeg"
+  },
+  {
+      "questionText": "What part of the body controls your thoughts and memories?",
+      "answerOptions": [
+          {"answerText": "Heart", "isCorrect": false},
+          {"answerText": "Lungs", "isCorrect": false},
+          {"answerText": "Stomach", "isCorrect": false},
+          {"answerText": "Brain", "isCorrect": true},
+          {"answerText": "Skin", "isCorrect": false}
+      ],
+      "explanation": "The brain is the most complex organ in the human body. It's responsible for everything from thinking and feeling to controlling movement and keeping your organs functioning.",
+      "image": "Science_easy/6.jpeg"
+  },
+  {
+      "questionText": "What is the process called where plants use sunlight to make food?",
+      "answerOptions": [
+          {"answerText": "Respiration", "isCorrect": false},
+          {"answerText": "Photosynthesis", "isCorrect": true},
+          {"answerText": "Transpiration", "isCorrect": false},
+          {"answerText": "Germination", "isCorrect": false},
+          {"answerText": "Decomposition", "isCorrect": false}
+      ],
+      "explanation": "Plants are like tiny food factories! They use sunlight, water, and carbon dioxide from the air to create their own food (glucose) through a process called photosynthesis.",
+      "image": "Science_easy/7.jpeg"
+  },
+  {
+      "questionText": "How many planets are there in our solar system (as of 2024)?",
+      "answerOptions": [
+          {"answerText": "5", "isCorrect": false},
+          {"answerText": "8", "isCorrect": true},
+          {"answerText": "10", "isCorrect": false},
+          {"answerText": "12", "isCorrect": false},
+          {"answerText": "15", "isCorrect": false}
+      ],
+      "explanation": "There are eight planets currently recognized in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Pluto, once considered a planet, was reclassified as a dwarf planet in 2006.",
+      "image": "Science_easy/8.jpeg"
+  },
+  {
+      "questionText": "What is the scientific name for a baby dinosaur?",
+      "answerOptions": [
+          {"answerText": "Hatchling", "isCorrect": false},
+          {"answerText": "Chick", "isCorrect": false},
+          {"answerText": "Dinosaurus hatchling", "isCorrect": false},
+          {"answerText": "Dinosaur young", "isCorrect": false},
+          {"answerText": "Dinosaurling", "isCorrect": true}
+      ],
+      "explanation": "While \"hatchling\" is a general term for a baby animal, dinosaur babies are specifically called dinosaurlings.",
+      "image": "Science_easy/9.jpeg"
+  },
+  {
+      "questionText": "What is the basic building block of DNA?",
+      "answerOptions": [
+          {"answerText": "Protein", "isCorrect": false},
+          {"answerText": "Chromosome", "isCorrect": false},
+          {"answerText": "Gene", "isCorrect": false},
+          {"answerText": "Nucleotide", "isCorrect": true},
+          {"answerText": "Cell", "isCorrect": false}
+      ],
+      "explanation": "DNA, which carries the genetic instructions for living things, is made up of smaller units called nucleotides. Each nucleotide contains a sugar, a phosphate group, and a nitrogenous base.",
+      "image": "Science_easy/10.jpeg"
+  }
+]

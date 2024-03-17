@@ -1,122 +1,122 @@
 [
     {
-        "questionText": "What intricate network of tiny blood vessels carries oxygen and nutrients throughout your body, keeping you alive and kicking?",
+        "questionText": "What is the largest bone in the human body?",
         "answerOptions": [
-            {"answerText": "Nervous system", "isCorrect": false},
-            {"answerText": "Lymphatic system", "isCorrect": false},
-            {"answerText": "Circulatory system", "isCorrect": true},
-            {"answerText": "Respiratory system", "isCorrect": false},
-            {"answerText": "Digestive system", "isCorrect": false}
+            {"answerText": "Tibia", "isCorrect": false},
+            {"answerText": "Fibula", "isCorrect": false},
+            {"answerText": "Humerus", "isCorrect": false},
+            {"answerText": "Femur", "isCorrect": true},
+            {"answerText": "Skull", "isCorrect": false}
         ],
-        "explanation": "Imagine a microscopic highway crisscrossing your body, delivering vital supplies to every cell! That's the circulatory system, a network of arteries, veins, and capillaries that transport oxygen, nutrients, and waste products. It's like a personal delivery service keeping your body functioning at peak performance.",
-        "image" : "Science/1.jpeg"
+        "explanation": "The femur, also known as the thigh bone, is the longest and strongest bone in the human body. It plays a crucial role in supporting our weight and allowing us to move.",
+        "image": "Science_medium/1.jpeg"
     },
     {
-        "questionText": "Which invisible force allows magnets to attract or repel each other, even without touching?",
+        "questionText": "What is the process by which water changes from a liquid to a gas?",
         "answerOptions": [
-            {"answerText": "Gravity", "isCorrect": false},
-            {"answerText": "Friction", "isCorrect": false},
-            {"answerText": "Magnetism", "isCorrect": true},
-            {"answerText": "Electromagnetism", "isCorrect": false},
-            {"answerText": "Static electricity", "isCorrect": false}
+            {"answerText": "Condensation", "isCorrect": false},
+            {"answerText": "Precipitation", "isCorrect": false},
+            {"answerText": "Evaporation", "isCorrect": true},
+            {"answerText": "Filtration", "isCorrect": false},
+            {"answerText": "Boiling", "isCorrect": false}
         ],
-        "explanation": "It's magic, but not as we know it! Magnetism is the invisible force that makes magnets stick together or push each other away. Magnetic fields surround these special objects, creating an invisible tug-of-war that can even pull objects through the air!",
-        "image" : "Science/2.jpeg"
+        "explanation": "Evaporation is the process by which water molecules at the surface of a liquid absorb heat and escape into the air as gas. This is how water in puddles, lakes, and even oceans enters the atmosphere.",
+        "image": "Science_medium/2.jpeg"
     },
     {
-        "questionText": "What powerful source of energy fuels our sun and billions of other stars, causing them to shine so brightly?",
+        "questionText": "What is the scientific name for lightning?",
         "answerOptions": [
-            {"answerText": "Chemical energy", "isCorrect": false},
-            {"answerText": "Nuclear energy", "isCorrect": true},
-            {"answerText": "Solar energy", "isCorrect": false},
-            {"answerText": "Electrical energy", "isCorrect": false},
-            {"answerText": "Geothermal energy", "isCorrect": false}
+            {"answerText": "Static discharge", "isCorrect": false},
+            {"answerText": "Electrical surge", "isCorrect": false},
+            {"answerText": "Plasma arc", "isCorrect": true},
+            {"answerText": "High-voltage current", "isCorrect": false},
+            {"answerText": "Thunderstorm spark", "isCorrect": false}
         ],
-        "explanation": "Forget coal and oil! Stars like our sun are nuclear fusion powerhouses, constantly merging tiny atoms to create massive amounts of energy. This nuclear reaction releases incredible heat and light, making stars shine brilliantly across the universe.",
-        "image" : "Science/3.jpeg"
+        "explanation": "Lightning is a massive electrical discharge that occurs in the atmosphere. It heats the air to incredibly high temperatures, creating a channel of superheated, ionized gas called plasma.",
+        "image": "Science_medium/3.jpeg"
     },
     {
-        "questionText": "Which layer of Earth's atmosphere protects us from harmful ultraviolet rays emitted by the sun?",
+        "questionText": "What is the reusable part of a flower that develops into a fruit?",
         "answerOptions": [
-            {"answerText": "Troposphere", "isCorrect": false},
-            {"answerText": "Stratosphere (with ozone layer)", "isCorrect": true},
-            {"answerText": "Mesosphere", "isCorrect": false},
-            {"answerText": "Thermosphere", "isCorrect": false},
-            {"answerText": "Exosphere", "isCorrect": false}
+            {"answerText": "Petal", "isCorrect": false},
+            {"answerText": "Sepal", "isCorrect": false},
+            {"answerText": "Stamen", "isCorrect": false},
+            {"answerText": "Ovary", "isCorrect": true},
+            {"answerText": "Pistil", "isCorrect": false}
         ],
-        "explanation": "Imagine a giant invisible shield safeguarding us from the sun's harsh rays! The ozone layer, nestled within the stratosphere, acts like a cosmic sunscreen, absorbing harmful ultraviolet radiation before it reaches Earth's surface. Thanks to this protective layer, we can enjoy sunshine without getting sunburned!",
-        "image" : "Science/4.jpeg"
+        "explanation": "The ovary is the part of a flower that contains the ovules, which develop into seeds after fertilization. When the flower is pollinated, the ovary begins to mature and eventually becomes the fruit.",
+        "image": "Science_medium/4.jpeg"
     },
     {
-        "questionText": "What process allows plants to breathe, taking in carbon dioxide and releasing oxygen back into the atmosphere?",
+        "questionText": "What is the scientific study of weather called?",
         "answerOptions": [
-            {"answerText": "Photosynthesis", "isCorrect": false},
-            {"answerText": "Transpiration", "isCorrect": false},
-            {"answerText": "Cellular respiration", "isCorrect": true},
-            {"answerText": "Germination", "isCorrect": false},
-            {"answerText": "Decomposition", "isCorrect": false}
+            {"answerText": "Climatology", "isCorrect": false},
+            {"answerText": "Geology", "isCorrect": false},
+            {"answerText": "Meteorology", "isCorrect": true},
+            {"answerText": "Oceanography", "isCorrect": false},
+            {"answerText": "Astronomy", "isCorrect": false}
         ],
-        "explanation": "Plants aren't just food factories; they're also tiny air purifiers! Through cellular respiration, they take in carbon dioxide, the gas we exhale, and release oxygen, the gas we need to breathe. It's like a reverse photosynthesis, giving us fresh air and keeping the planet's carbon cycle balanced.",
-        "image" : "Science/5.jpeg"
+        "explanation": "Meteorology is the scientific study of the atmosphere and weather phenomena such as rain, snow, wind, and thunderstorms. Meteorologists use various tools and techniques to forecast weather patterns and predict future conditions.",
+        "image": "Science_medium/5.jpeg"
     },
     {
-        "questionText": "Which powerful muscle pumps blood throughout your body, ensuring a steady flow of oxygen and nutrients to your cells?",
-        "answerOptions": [
-            {"answerText": "Skeletal muscles", "isCorrect": false},
-            {"answerText": "Smooth muscles", "isCorrect": false},
-            {"answerText": "Cardiac muscle", "isCorrect": true},
-            {"answerText": "Nervous tissue", "isCorrect": false},
-            {"answerText": "Connective tissue", "isCorrect": false}
-        ],
-        "explanation": "The tireless engine of your body, the heart, is made of a special type of muscle called cardiac muscle. This hardworking tissue contracts and relaxes rhythmically, pumping blood through a network of vessels to every corner of your body, keeping you alive and kicking.",
-        "image" : "Science/6.jpeg"
+            "questionText": "What is the largest organ in the human body?",
+            "answerOptions": [
+                {"answerText": "Lungs", "isCorrect": false},
+                {"answerText": "Heart", "isCorrect": false},
+                {"answerText": "Stomach", "isCorrect": false},
+                {"answerText": "Skin", "isCorrect": true},
+                {"answerText": "Brain", "isCorrect": false}
+            ],
+            "explanation": "Our skin is the largest organ, acting as a protective barrier against the environment. It also helps regulate body temperature, prevents water loss, and plays a role in sensation.",
+            "image": "Science_medium/6.jpeg"
     },
     {
-        "questionText": "Which tiny structures inside your brain act as messengers, transmitting signals between neurons to control your thoughts, movements, and feelings?",
-        "answerOptions": [
-            {"answerText": "Neurons", "isCorrect": false},
-            {"answerText": "Synapses", "isCorrect": true},
-            {"answerText": "Receptors", "isCorrect": false},
-            {"answerText": "Glands", "isCorrect": false},
-            {"answerText": "Blood vessels", "isCorrect": false}
-        ],
-        "explanation": "Imagine a microscopic handshake within your brain! Synapses are the junction points between neurons where electrical signals jump across, allowing nerve cells to communicate and coordinate everything from blinking your eyes to solving a math problem.",
-        "image" : "Science/7.jpeg"
+            "questionText": "What is the process by which rocks are broken down by physical and chemical weathering?",
+            "answerOptions": [
+                {"answerText": "Erosion", "isCorrect": false},
+                {"answerText": "Sedimentation", "isCorrect": false},
+                {"answerText": "Metamorphism", "isCorrect": false},
+                {"answerText": "Weathering", "isCorrect": true},
+                {"answerText": "Crystallization", "isCorrect": false}
+            ],
+            "explanation": "Weathering is the natural process that breaks down rocks into smaller fragments or dissolved minerals through physical (wind, water, ice) or chemical (acid rain) means.",
+            "image": "Science_medium/7.jpeg"
     },
     {
-        "questionText": "What amazing organ filters waste products from your blood, maintaining the chemical balance essential for good health?",
-        "answerOptions": [
-            {"answerText": "Liver", "isCorrect": false},
-            {"answerText": "Stomach", "isCorrect": false},
-            {"answerText": "Heart", "isCorrect": false},
-            {"answerText": "Kidneys", "isCorrect": true},
-            {"answerText": "Lungs", "isCorrect": false}
-        ],
-        "explanation": "Think of your kidneys as nature's built-in water filter! These hardworking organs constantly clean your blood, removing waste products and toxins before returning it to your bloodstream. Keeping your kidneys happy is key to feeling good and functioning at your best.",
-        "image" : "Science/8.jpeg"
+            "questionText": "What is the fuel that powers most stars, including our Sun?",
+            "answerOptions": [
+                {"answerText": "Chemical burning", "isCorrect": false},
+                {"answerText": "Solar wind", "isCorrect": false},
+                {"answerText": "Nuclear fission", "isCorrect": false},
+                {"answerText": "Nuclear fusion", "isCorrect": true},
+                {"answerText": "Electricity", "isCorrect": false}
+            ],
+            "explanation": "Stars generate immense energy through nuclear fusion, where hydrogen atoms combine to form helium, releasing tremendous heat and light.",
+            "image": "Science_medium/8.jpeg"
     },
     {
-        "questionText": "Which part of your eye acts like a camera lens, focusing light onto the retina to create the images you see?",
-        "answerOptions": [
-            {"answerText": "Cornea", "isCorrect": false},
-            {"answerText": "Iris", "isCorrect": false},
-            {"answerText": "Pupil", "isCorrect": false},
-            {"answerText": "Lens", "isCorrect": true},
-            {"answerText": "Retina", "isCorrect": false}
-        ],
-        "explanation": "Your eyes are like miniature movie cameras, and the lens plays the starring role! This flexible structure bends light rays, focusing them onto the retina at the back of your eye, allowing you to see the world in vibrant detail.",
-        "image" : "Science/9.jpeg"
+            "questionText": "What invention revolutionized communication by allowing people to transmit voices over long distances?",
+            "answerOptions": [
+                {"answerText": "Telegraph (This was an earlier invention for transmitting messages)", "isCorrect": false},
+                {"answerText": "Radio", "isCorrect": false},
+                {"answerText": "Television", "isCorrect": false},
+                {"answerText": "Telephone", "isCorrect": true},
+                {"answerText": "Computer", "isCorrect": false}
+            ],
+            "explanation": "Invented by Alexander Graham Bell, the telephone enabled real-time voice communication over long distances, drastically transforming communication methods.",
+            "image": "Science_medium/9.jpeg"
     },
     {
-        "questionText": "What system converts food to energy?",
-        "answerOptions": [
-            {"answerText": "Nervous system", "isCorrect": false},
-            {"answerText": "Lymphatic system", "isCorrect": false},
-            {"answerText": "Circulatory system", "isCorrect": false},
-            {"answerText": "Respiratory system", "isCorrect": false},
-            {"answerText": "Digestive system", "isCorrect": true}
-        ],
-        "explanation": "Imagine a place in your body where acids are churning food and digesting it for energy.",
-        "image" : "Science/10.jpeg"
-    }
+            "questionText": "What is the study of dinosaurs called?",
+            "answerOptions": [
+                {"answerText": "Zoology", "isCorrect": false},
+                {"answerText": "Herpetology (This is the study of reptiles)", "isCorrect": false},
+                {"answerText": "Paleontology", "isCorrect": true},
+                {"answerText": "Archaeology", "isCorrect": false},
+                {"answerText": "Anthropology", "isCorrect": false}
+            ],
+            "explanation": "Paleontology is the scientific study of ancient life forms, including dinosaurs, by examining fossils and other remains.",
+            "image": "Science_medium/10.jpeg"
+    }      
 ]

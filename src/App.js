@@ -181,8 +181,10 @@ export default function App() {
 		return (
 				<div style={CardStyle} className='front-page'>
 					<button onClick={(e) => handleCategories(e, "Geometry")}>Geometry</button>
+					<button onClick={(e) => handleCategories(e, "Science_easy")}>Science: Easy</button>
+					<button onClick={(e) => handleCategories(e, "Science")}>Science: Medium</button>
 					<button onClick={(e) => handleCategories(e, "Geography")}>Geography</button>
-					<button onClick={(e) => handleCategories(e, "Science")}>Science</button>
+					<button onClick={(e) => handleCategories(e, "Science_hard")}>Science: Hard</button>
 					<button onClick={(e) => handleCategories(e, "Sports")}>Sports</button>
 					<button onClick={(e) => handleCategories(e, "History")}>History</button>
 					<button onClick={(e) => handleCategories(e, "Guess The Word")}>Guess The Word</button>
