@@ -1,0 +1,121 @@
+[
+    {
+        "questionText": "Which towering structures, built along the Nile River by ancient Egyptians, served as tombs for their pharaohs and remain awe-inspiring testaments to their engineering prowess?",
+        "answerOptions": [
+            {"answerText": "Ziggurats of Mesopotamia", "isCorrect": false},
+            {"answerText": "Stonehenge in England", "isCorrect": false},
+            {"answerText": "Moai statues of Easter Island", "isCorrect": false},
+            {"answerText": "Pyramids of Giza", "isCorrect": true},
+            {"answerText": "Great Wall of China", "isCorrect": false}
+        ],
+        "explanation": "Rising majestically from the sands of Egypt, the Pyramids of Giza are arguably the most recognizable historical landmarks in the world. These colossal pyramids housed the bodies of pharaohs and reflect the advanced architectural and engineering skills of the ancient Egyptians. Their enduring presence continues to captivate and inspire, making them a timeless symbol of human ambition.",
+        "image": "History/1.jpeg"
+    },
+    {
+        "questionText": "Which powerful Roman emperor, known for his ruthless tactics and grand construction projects, built the famed Colosseum and expanded the Roman Empire to its greatest extent?",
+        "answerOptions": [
+            {"answerText": "Julius Caesar", "isCorrect": false},
+            {"answerText": "Augustus", "isCorrect": false},
+            {"answerText": "Nero", "isCorrect": false},
+            {"answerText": "Trajan", "isCorrect": true},
+            {"answerText": "Marcus Aurelius", "isCorrect": false}
+        ],
+        "explanation": "Trajan, reigning from 98 to 117 AD, left an indelible mark on Roman history. He expanded the empire's borders significantly, oversaw the construction of iconic structures like the Colosseum, and instituted legal reforms that improved the lives of Roman citizens. Though remembered for his military prowess, Trajan also promoted stability and prosperity during his reign.",
+        "image": "History/2.jpeg"
+    },
+    {
+        "questionText": "What revolutionary document, signed in 1776, declared the thirteen American colonies' independence from Great Britain, sparking the American Revolution and inspiring numerous independence movements around the world?",
+        "answerOptions": [
+            {"answerText": "Magna Carta", "isCorrect": false},
+            {"answerText": "Mayflower Compact", "isCorrect": false},
+            {"answerText": "Articles of Confederation", "isCorrect": false},
+            {"answerText": "Declaration of Independence", "isCorrect": true},
+            {"answerText": "Constitution of the United States", "isCorrect": false}
+        ],
+        "explanation": "More than just a declaration of independence, this document penned by Thomas Jefferson outlined the philosophical and political foundations of the fledgling American nation. The Declaration of Independence, with its emphasis on natural rights and self-government, became a beacon of liberty and continues to inspire democratic ideals throughout the world.",
+        "image": "History/3.jpeg"
+    },
+    {
+        "questionText": "Which iconic Renaissance artist, known for his mastery of light and shadow and his intricate depictions of the human form, painted the Mona Lisa and The Last Supper, leaving an enduring legacy on art history?",
+        "answerOptions": [
+            {"answerText": "Michelangelo", "isCorrect": false},
+            {"answerText": "Donatello", "isCorrect": false},
+            {"answerText": "Raphael", "isCorrect": false},
+            {"answerText": "Leonardo da Vinci", "isCorrect": true},
+            {"answerText": "Sandro Botticelli", "isCorrect": false}
+        ],
+        "explanation": "Leonardo da Vinci was a true polymath, excelling in art, science, and engineering. His paintings, characterized by their realism and psychological depth, remain some of the most recognizable and celebrated works of art in history. The Mona Lisa's enigmatic smile and The Last Supper's dramatic composition continue to captivate audiences centuries after their creation.",
+        "image": "History/4.jpeg"
+    },
+    {
+        "questionText": "What devastating World War II battle, fought on the beaches of Normandy, France, marked a turning point in the war and became a symbol of Allied courage and sacrifice?",
+        "answerOptions": [
+            {"answerText": "Battle of Stalingrad", "isCorrect": false},
+            {"answerText": "Battle of Midway", "isCorrect": false},
+            {"answerText": "Battle of Britain", "isCorrect": false},
+            {"answerText": "D-Day", "isCorrect": true},
+            {"answerText": "Battle of Okinawa", "isCorrect": false}
+        ],
+        "explanation": "The largest amphibious invasion in history, D-Day on June 6, 1944, saw Allied forces storm the beaches of Normandy in a daring operation to liberate France from German occupation. Despite heavy losses, the Allied troops' bravery and determination marked a significant turning point in the war, eventually leading to the defeat of Nazi Germany. D-Day remains a stark reminder of the sacrifices made in World War II.",
+        "image": "History/5.jpeg"
+    },
+    {
+        "questionText": "Which magnificent ancient civilization, located in the Indus Valley of present-day Pakistan and India, flourished around 3300-1300 BCE, leaving behind intricate city planning, advanced drainage systems, and beautifully crafted artifacts?",
+        "answerOptions": [
+            {"answerText": "Ancient Egypt", "isCorrect": false},
+            {"answerText": "Mesopotamian civilizations", "isCorrect": false},
+            {"answerText": "Indus Valley Civilization", "isCorrect": true},
+            {"answerText": "Mayan Civilization", "isCorrect": false},
+            {"answerText": "Aztec Empire", "isCorrect": false}
+        ],
+        "explanation": "The Indus Valley Civilization, with its sophisticated cities like Mohenjo-daro and Harappa, stands as a testament to human ingenuity in the ancient world. Their advanced urban planning, water management systems, and artistic achievements continue to baffle and inspire archaeologists and historians, offering a glimpse into a complex and vibrant civilization that mysteriously declined centuries ago.",
+        "image": "History/6.jpeg"
+    },
+    {
+        "questionText": "Which iconic Chinese warrior from the 3rd century BCE is renowned for her military prowess, tactical brilliance, and unwavering loyalty, becoming a legendary figure in Chinese history and inspiring countless works of art and literature?",
+        "answerOptions": [
+            {"answerText": "Empress Wu Zetian", "isCorrect": false},
+            {"answerText": "Yang Guifei", "isCorrect": false},
+            {"answerText": "Mulan", "isCorrect": true},
+            {"answerText": "Diao Chan", "isCorrect": false},
+            {"answerText": "Princess Wencheng", "isCorrect": false}
+        ],
+        "explanation": "Mulan, though possibly a legendary figure rather than a historical fact, has become a timeless symbol of female strength, courage, and filial piety in Chinese culture. Her story of disguising herself as a man to take her father's place in the army continues to resonate with audiences around the world, celebrating bravery and sacrifice in the face of adversity.",
+        "image": "History/7.jpeg"
+    },
+    {
+        "questionText": "What monumental event in 1453 marked the fall of the Byzantine Empire to the Ottoman Turks, ending centuries of Roman influence in the region and reshaping the political landscape of the Eastern Mediterranean?",
+        "answerOptions": [
+            {"answerText": "Viking raids on Western Europe", "isCorrect": false},
+            {"answerText": "Hundred Years' War", "isCorrect": false},
+            {"answerText": "Mongol conquests", "isCorrect": false},
+            {"answerText": "Fall of Constantinople", "isCorrect": true},
+            {"answerText": "Spanish Inquisition", "isCorrect": false}
+        ],
+        "explanation": "The Fall of Constantinople in 1453 served as a pivotal moment in world history, marking the end of the Byzantine Empire and ushering in the rise of the Ottoman Empire. This event had significant political, religious, and cultural ramifications, impacting trade routes, influencing the Renaissance, and leaving a lasting legacy on the region.",
+        "image": "History/8.jpeg"
+    },
+    {
+        "questionText": "Which powerful social and political movement of the 19th and 20th centuries fought for the rights of working-class people, advocating for better wages, safer working conditions, and improved living standards, leaving a lasting impact on labor laws and worker protections around the world?",
+        "answerOptions": [
+            {"answerText": "Feminist movement", "isCorrect": false},
+            {"answerText": "Civil rights movement", "isCorrect": false},
+            {"answerText": "Environmental movement", "isCorrect": false},
+            {"answerText": "Anti-colonial movement", "isCorrect": false},
+            {"answerText": "Labor movement", "isCorrect": true}
+        ],
+        "explanation": "The tireless efforts of trade unions and labor activists throughout history have led to significant improvements in working conditions, healthcare benefits, and worker protections. From sweatshop reforms to minimum wage laws, the labor movement continues to strive for greater equality and social justice for working people across the globe.",
+        "image": "History/9.jpeg"
+    },
+    {
+        "questionText": "Which devastating event in 1986 at the Chernobyl nuclear power plant in Ukraine resulted in the worst nuclear accident in history, causing widespread radioactive contamination and impacting the lives of millions around the world?",
+        "answerOptions": [
+            {"answerText": "Fukushima Daiichi nuclear disaster", "isCorrect": false},
+            {"answerText": "Three Mile Island accident", "isCorrect": false},
+            {"answerText": "Bhopal industrial disaster", "isCorrect": false},
+            {"answerText": "Chernobyl nuclear disaster", "isCorrect": true}
+        ],
+        "explanation": "The Chernobyl disaster serves as a stark reminder of the potential dangers of nuclear energy. The explosion and resulting radioactive fallout had devastating consequences for the surrounding region and its inhabitants, raising crucial questions about safety standards and the future of nuclear power. Remembering this event encourages us to learn from past mistakes and prioritize safety in the pursuit of technological advancements.",
+        "image": "History/10.jpeg"
+    }
+]

@@ -116,8 +116,11 @@ export default function App() {
 				className="CardFront"
 			  >		
 				<div className='question-section'>
-					<div className='question-count'>
 						<span>Question {currentQuestion+1}</span>/{questions.length}
+					<div className='question-count'>
+					</div>
+					<div className='question-text'>
+						<img src={questions[currentQuestion].questionImage}  width="80%"></img>
 					</div>
 					<div className='question-text'>{questions[currentQuestion].questionText}</div>
 				</div>
@@ -177,9 +180,13 @@ export default function App() {
 	function renderCategories() {
 		return (
 				<div style={CardStyle} className='front-page'>
+					<button onClick={(e) => handleCategories(e, "Geometry")}>Geometry</button>
 					<button onClick={(e) => handleCategories(e, "Geography")}>Geography</button>
 					<button onClick={(e) => handleCategories(e, "Science")}>Science</button>
 					<button onClick={(e) => handleCategories(e, "Sports")}>Sports</button>
+					<button onClick={(e) => handleCategories(e, "History")}>History</button>
+					<button onClick={(e) => handleCategories(e, "Guess The Word")}>Guess The Word</button>
+					<button onClick={(e) => handleCategories(e, "Riddles")}>Riddles</button>
 				</div>
 		);
 	}

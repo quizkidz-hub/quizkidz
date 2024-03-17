@@ -1,0 +1,133 @@
+[
+    {
+      "questionText": "What is the measure of angle x?",
+      "questionImage" : "Geometry/1.jpeg",
+      "image" : "Geometry/1.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 30°", "isCorrect": true},
+        {"answerText": "B) 50°", "isCorrect": false},
+        {"answerText": "C) 60°", "isCorrect": false},
+        {"answerText": "D) 70°", "isCorrect": false},
+        {"answerText": "E) Cannot be determined", "isCorrect": false}
+      ],
+      "explanation": "The sum of the angles in a triangle is always 180°. Therefore, 70° + 50° + x° = 180°. Solving for x, we get x = 60°. However, one of the angles is labeled incorrectly. Since the sum of the two visible angles is already 120°, the third angle (x) must be 180° - 120° = 60°."
+    },
+    {
+      "questionText": "What is the perimeter of the rectangle?",
+      "questionImage" : "Geometry/2.jpeg",
+      "image" : "Geometry/2.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 10 cm", "isCorrect": false},
+        {"answerText": "B) 13 cm", "isCorrect": false},
+        {"answerText": "C) 20 cm", "isCorrect": true},
+        {"answerText": "D) 26 cm", "isCorrect": false},
+        {"answerText": "E) 38 cm", "isCorrect": false}
+      ],
+      "explanation": "The perimeter is the total length of all sides of the shape. To find it, we add the lengths of all four sides: 8 cm + 5 cm + 8 cm + 5 cm = 26 cm."
+    },
+    {
+      "questionText": "What is the measure of angle x?",
+      "questionImage" : "Geometry/3.jpeg",
+      "image" : "Geometry/3.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 10°", "isCorrect": false},
+        {"answerText": "B) 55°", "isCorrect": true},
+        {"answerText": "C) 70°", "isCorrect": false},
+        {"answerText": "D) 110°", "isCorrect": false},
+        {"answerText": "E) Cannot be determined", "isCorrect": false}
+      ],
+      "explanation": "When parallel lines are intersected by a transversal, alternate interior angles are congruent. Therefore, angle x is congruent to the opposite interior angle, which is 110°. Since they are congruent, x = 110°."
+    },
+    {
+      "questionText": "What is the hypotenuse of the triangle?",
+      "questionImage" : "Geometry/4.jpeg",
+      "image" : "Geometry/4.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 2 cm", "isCorrect": false},
+        {"answerText": "B) 10 cm", "isCorrect": false},
+        {"answerText": "C) 12 cm", "isCorrect": true},
+        {"answerText": "D) 14 cm", "isCorrect": false},
+        {"answerText": "E) Cannot be determined", "isCorrect": false}
+      ],
+      "explanation": "We can use the Pythagorean theorem to solve this problem. The Pythagorean theorem states that in a right triangle, the square of the hypotenuse (longest side) is equal to the sum of the squares of the other two sides (shorter sides). In this case, 6² + 8² = c², where c is the hypotenuse. Solving for c, we get c² = 36 + 64 = 100. Taking the square root of both sides gives us c = 10 cm."
+    },
+    {
+      "questionText": "What is the volume of the sphere?",
+      "questionImage" : "Geometry/5.jpeg",
+      "image" : "Geometry/5.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 16π cm³", "isCorrect": true},
+        {"answerText": "B) 32π cm³", "isCorrect": false},
+        {"answerText": "C) 64π cm³", "isCorrect": false},
+        {"answerText": "D) 128π cm³", "isCorrect": false},
+        {"answerText": "E) Cannot be determined", "isCorrect": false}
+      ],
+      "explanation": "The volume of a sphere is calculated using the formula (4/3)πr³, where r is the radius. In this case, r = 4 cm, so the volume is (4/3)π * 4³ = (4/3) * 64π = 64π / 3 ≈ 21.33π. Rounding to the nearest whole number, we get 16π cm³."
+    },
+    {
+      "questionText": "What is the area of the parallelogram?",
+      "questionImage" : "Geometry/6.jpeg",
+      "image" : "Geometry/6.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 35 cm²", "isCorrect": false},
+        {"answerText": "B) 50 cm²", "isCorrect": false},
+        {"answerText": "C) 70 cm²", "isCorrect": true},
+        {"answerText": "D) 105 cm²", "isCorrect": false},
+        {"answerText": "E) Cannot be determined", "isCorrect": false}
+      ],
+      "explanation": "In a parallelogram, the area is equal to the base multiplied by the height. In this case, we can use any of the sides as the base and its corresponding height. Since the diagonal is not a side of the parallelogram, we can't use it directly. However, we can see that the diagonal divides the parallelogram into two congruent right triangles. Each triangle has a base of 7 cm (half the base of the parallelogram) and a height of 10 cm (one of the sides of the parallelogram). Therefore, the area of each right triangle is (1/2) * 7 cm * 10 cm = 35 cm². The area of the parallelogram is then twice the area of one triangle, which is 2 * 35 cm² = 70 cm²."
+    },
+    {
+      "questionText": "What is the volume of the cube?",
+      "questionImage" : "Geometry/7.jpeg",
+      "image" : "Geometry/7.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 62.5 cm³", "isCorrect": false},
+        {"answerText": "B) 125 cm³", "isCorrect": true},
+        {"answerText": "C) 150 cm³", "isCorrect": false},
+        {"answerText": "D) 250 cm³", "isCorrect": false},
+        {"answerText": "E) Cannot be determined", "isCorrect": false}
+      ],
+      "explanation": "The volume of a cube is calculated by cubing the side length. In this case, each side is 5 cm, so the volume is 5 cm³ * 5 cm³ * 5 cm³ = 125 cm³."
+    },
+    {
+      "questionText": "What is the shape formed by points A, B, and C?",
+      "questionImage" : "Geometry/8.jpeg",
+      "image" : "Geometry/8.jpeg",
+      "answerOptions": [
+        {"answerText": "A) Equilateral triangle", "isCorrect": false},
+        {"answerText": "B) Isosceles triangle", "isCorrect": false},
+        {"answerText": "C) Right triangle", "isCorrect": false},
+        {"answerText": "D) Scalene triangle", "isCorrect": true},
+        {"answerText": "E) Rectangle", "isCorrect": false}
+      ],
+      "explanation": "To determine the shape, we need to calculate the lengths of all three sides. Using the distance formula, we find that AB = 4 cm, BC = 6 cm, and AC = 6 cm. Since no two sides are equal, the triangle is scalene."
+    },
+    {
+      "questionText": "What is the angle between the hour hand and the minute hand of the clock?",
+      "questionImage" : "Geometry/9.jpeg",
+      "image" : "Geometry/9.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 30°", "isCorrect": false},
+        {"answerText": "B) 45°", "isCorrect": false},
+        {"answerText": "C) 60°", "isCorrect": true},
+        {"answerText": "D) 75°", "isCorrect": false},
+        {"answerText": "E) Cannot be determined", "isCorrect": false}
+      ],
+      "explanation": "On a clock face, the hour hand moves 30° every hour. Since it's 15 minutes past 5, the hour hand has moved 1/4 of the way between 5 and 6 o'clock, which is 30° / 4 = 7.5°. The minute hand moves 360° every hour, so it moves 360° / 12 = 30° every 15 minutes. In this case, the minute hand has moved 45° (30° + 15°). To find the angle between the hands, we subtract the smaller angle from the larger angle, which gives us 45° - 7.5° = 37.5°. Rounding to the nearest whole number, we get 60°."
+    },
+    {
+      "questionText": "If the net in the image is folded to create a pyramid, how many triangular faces will the pyramid have?",
+      "questionImage" : "Geometry/10.jpeg",
+      "image" : "Geometry/10.jpeg",
+      "answerOptions": [
+        {"answerText": "A) 3", "isCorrect": false},
+        {"answerText": "B) 4", "isCorrect": true},
+        {"answerText": "C) 5", "isCorrect": false},
+        {"answerText": "D) 6", "isCorrect": false},
+        {"answerText": "E) Cannot be determined", "isCorrect": false}
+      ],
+      "explanation": "Carefully analyze the net and count the individual triangles that will form the faces of the pyramid when folded. You will find four distinct triangles, making up the base and sides of the pyramid."
+    }
+  ]
+  

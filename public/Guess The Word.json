@@ -1,0 +1,123 @@
+[
+    {
+        "questionText": "A vibrant expanse of multicolored flowers blooming together, creating a breathtaking natural spectacle.",
+        "answerOptions": [
+            {"answerText": "Oasis", "isCorrect": false},
+            {"answerText": "Meadow", "isCorrect": true},
+            {"answerText": "Conservatory", "isCorrect": false},
+            {"answerText": "Prairie", "isCorrect": false},
+            {"answerText": "Meadowlands", "isCorrect": false}
+        ],
+        "explanation": "Imagine a carpet of nature's finest floral creations! Meadows teem with diverse wildflowers, painting the landscape with a kaleidoscope of colors and enchanting us with their fragrant beauty.",
+        "image":"Guess The Word/1.jpeg"
+    },
+    {
+        "questionText": "A device used to measure and record the intensity of earthquakes, helping us understand the movement of Earth's tectonic plates.",
+        "answerOptions": [
+            {"answerText": "Thermometer", "isCorrect": false},
+            {"answerText": "Barometer", "isCorrect": false},
+            {"answerText": "Seismograph", "isCorrect": true},
+            {"answerText": "Compass", "isCorrect": false},
+            {"answerText": "Telescope", "isCorrect": false}
+        ],
+        "explanation": "This sensitive instrument acts as Earth's heartbeat monitor, meticulously tracking the tremors and vibrations caused by earthquakes. By analyzing these recordings, scientists unlock valuable insights into our planet's dynamic movements.",
+        "image":"Guess The Word/2.jpeg"
+    },
+    {
+        "questionText": "A vast underwater realm teeming with diverse marine life, from playful dolphins to magnificent coral reefs, forming a vital part of Earth's ecosystem.",
+        "answerOptions": [
+            {"answerText": "Desert", "isCorrect": false},
+            {"answerText": "Rainforest", "isCorrect": false},
+            {"answerText": "Ocean", "isCorrect": true},
+            {"answerText": "Tundra", "isCorrect": false},
+            {"answerText": "Savanna", "isCorrect": false}
+        ],
+        "explanation": "From sun-dappled surface waters to the mysterious depths, the ocean holds a universe of life forms within its salty embrace. Coral reefs pulsate with color, fish flit through sunbeams, and whales sing melancholic songs – the ocean is a symphony of life and a vital engine of our planet's health.",
+        "image":"Guess The Word/3.jpeg"
+    },
+    {
+        "questionText": "A group of friends or colleagues who work together closely, sharing ideas and supporting each other in pursuit of a common goal.",
+        "answerOptions": [
+            {"answerText": "Mob", "isCorrect": false},
+            {"answerText": "Team", "isCorrect": true},
+            {"answerText": "Jury", "isCorrect": false},
+            {"answerText": "Delegation", "isCorrect": false},
+            {"answerText": "Orchestra", "isCorrect": false}
+        ],
+        "explanation": "Synergy, collaboration, and a shared vision – teams bring individuals together, allowing them to achieve more than they could alone. Whether conquering a creative project or tackling a complex challenge, the spirit of teamwork fuels progress and fosters connection.",
+        "image":"Guess The Word/4.jpeg"
+    },
+    {
+        "questionText": "A feeling of overwhelming wonder and awe, often inspired by something vast, powerful, or beautiful, leaving us speechless and humbled.",
+        "answerOptions": [
+            {"answerText": "Contentment", "isCorrect": false},
+            {"answerText": "Melancholy", "isCorrect": false},
+            {"answerText": "Amusement", "isCorrect": false},
+            {"answerText": "Awe", "isCorrect": true},
+            {"answerText": "Frustration", "isCorrect": false}
+        ],
+        "explanation": "Picture yourself gazing at a starry night sky or standing before a towering waterfall. Awe washes over you, leaving you speechless and humbled by the immensity and beauty of the universe. It's a reminder of our place in the grand scheme of things and inspires us to explore and appreciate the wonders around us.",
+        "image":"Guess The Word/5.jpeg"
+    },
+    {
+        "questionText": "This fascinating branch of science delves into the study of ancient objects and civilizations, shedding light on the human story from its earliest chapters.",
+        "answerOptions": [
+            {"answerText": "Anthropology", "isCorrect": false},
+            {"answerText": "Paleontology", "isCorrect": false},
+            {"answerText": "Archaeology", "isCorrect": true},
+            {"answerText": "History", "isCorrect": false},
+            {"answerText": "Geology", "isCorrect": false}
+        ],
+        "explanation": "Armed with trowels and brushes, archaeologists become time detectives, excavating the buried secrets of the past. From unearthing dinosaur bones to uncovering the ruins of ancient cities, archaeology paints a vivid picture of human societies long gone, offering us a glimpse into our diverse and fascinating history.",
+        "image":"Guess The Word/6.jpeg"
+    },
+    {
+        "questionText": "This vibrant tapestry of threads woven together creates patterns and textures, adorning clothing, tapestries, and even art installations, expressing creativity and cultural traditions.",
+        "answerOptions": [
+            {"answerText": "Painting", "isCorrect": false},
+            {"answerText": "Sculpture", "isCorrect": false},
+            {"answerText": "Textile", "isCorrect": true},
+            {"answerText": "Pottery", "isCorrect": false},
+            {"answerText": "Jewelry", "isCorrect": false}
+        ],
+        "explanation": "From the shimmering silks of ancient China to the bold tapestries of medieval Europe, textiles have woven themselves into the fabric of human history. These colorful threads, intertwined with skill and artistry, not only provide warmth and comfort but also tell stories, preserve traditions, and express cultural identities.",
+        "image":"Guess The Word/7.jpeg"
+    },
+    {
+        "questionText": "This majestic natural wonder, formed by cascading water over centuries, plunges into a mesmerizing pool below, creating a spectacle of power and beauty.",
+        "answerOptions": [
+            {"answerText": "Canyon", "isCorrect": false},
+            {"answerText": "Glacier", "isCorrect": false},
+            {"answerText": "Geyser", "isCorrect": false},
+            {"answerText": "Waterfall", "isCorrect": true},
+            {"answerText": "Volcano", "isCorrect": false}
+        ],
+        "explanation": "Imagine the thunderous roar of water pounding on rocks, mist swirling in the air, and rainbows dancing in the sunlight. Waterfalls captivate us with their raw power and breathtaking beauty, sculpting landscapes, nurturing ecosystems, and reminding us of the boundless force of nature.",
+        "image":"Guess The Word/8.jpeg"
+    },
+    {
+        "questionText": "This intricate device uses lenses and mirrors to magnify distant objects, bringing the faraway closer and allowing us to explore the celestial wonders of the universe.",
+        "answerOptions": [
+            {"answerText": "Microscope", "isCorrect": false},
+            {"answerText": "Compass", "isCorrect": false},
+            {"answerText": "Telescope", "isCorrect": true},
+            {"answerText": "Barometer", "isCorrect": false},
+            {"answerText": "Sextant", "isCorrect": false}
+        ],
+        "explanation": "Imagine peering through a window into the cosmos! Telescopes act as our cosmic tour guides, magnifying distant stars, galaxies, and nebulae, allowing us to unravel the mysteries of the universe and marvel at its vastness and magnificence.",
+        "image":"Guess The Word/9.jpeg"
+    },
+    {
+        "questionText": "This ingenious invention uses electricity to produce controlled bursts of light, illuminating our homes, streets, and even entire cities, casting away darkness and transforming the night into a world of possibilities.",
+        "answerOptions": [
+            {"answerText": "Battery", "isCorrect": false},
+            {"answerText": "Generator", "isCorrect": false},
+            {"answerText": "Lightbulb", "isCorrect": true},
+            {"answerText": "Transformer", "isCorrect": false},
+            {"answerText": "Switch", "isCorrect": false}
+        ],
+        "explanation": "From the warm glow of a reading lamp to the dazzling lights of a bustling city, the lightbulb revolutionized our world. This simple yet ingenious invention conquered darkness, extended our days, and fueled countless possibilities, shaping our way of life and igniting the flames of progress.",
+        "image":"Guess The Word/10.jpeg"
+    }
+]
+
